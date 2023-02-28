@@ -41,7 +41,7 @@ public class CheckEnterTest {
 
     @Test
     @DisplayName("Проверка входа через кнопку войти")
-    public void logInLogInButtonTest() throws InterruptedException {
+    public void logInLogInButtonTest() {
         // вызываем метод клик кнопка  войти в аккаунт
         objHomePageElement.clickButton(HomePageElement.accauntInButton);
         // заполняем е майл
@@ -57,7 +57,7 @@ public class CheckEnterTest {
 
     @Test
     @DisplayName("Проверка входа через кнопку личный кабинет")
-    public void personalAccauntButtonTest() throws InterruptedException {
+    public void personalAccauntButtonTest() {
         // вызываем метод клик кнопка Личный кабинет
         objHomePageElement.clickButton(HomePageElement.personalAccountButton);
         // заполняем е майл
@@ -66,14 +66,13 @@ public class CheckEnterTest {
         objAccauntProfile.clickEditProfile(AccauntProfile.password, PASSWORD);
         // нажимает кнопку войти
         objAccauntProfile.clickButton(AccauntProfile.EntrenButton);
-
         //проверяем что появилась кнопка оформить заказ
         Assert.assertTrue(objHomePageElement.orderButtonIsExist(objHomePageElement.orderButton));
     }
 
     @Test
     @DisplayName("Проверка входа через зарегестрироваться кнопку войти")
-    public void registretionEnterButtonTest() throws InterruptedException {
+    public void registretionEnterButtonTest() {
         // вызываем метод клик кнопка Зарегестрироваться
         objHomePageElement.clickButton(HomePageElement.personalAccountButton);
         //нажимаем на кнопку зарегестрироваться
@@ -93,7 +92,7 @@ public class CheckEnterTest {
 
     @Test
     @DisplayName("Проверка входа через востановление пароля кнопку войти")
-    public void passwordRecovoryEnterButtonTest() throws InterruptedException {
+    public void passwordRecovoryEnterButtonTest() {
         // вызываем метод клик кнопка смена пароля
         objHomePageElement.clickButton(HomePageElement.personalAccountButton);
         //нажимаем на кнопку востоновить пароль

@@ -59,7 +59,6 @@ public class CheckRegistreTest {
         objRegisterPage = new Register(driver);
         objPersonalAccount = new PersonalAccount(driver);
     }
-
     @Test
     @DisplayName("Проверка регистрации с правильнм и коротким паролем")
     public void userRegistrationTest() throws InterruptedException {

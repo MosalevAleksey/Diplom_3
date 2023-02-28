@@ -19,7 +19,6 @@ public class CheckAccountProfileTest {
     private Register objRegisterPage;
     private ForgotPassword objForgotPassword;
     private PersonalAccount objPersonalAccount;
-
     @Before
     public void runDrever() {
 
@@ -53,7 +52,6 @@ public class CheckAccountProfileTest {
         objQaScooterPageElement.clickButton(HomePageElement.personalAccountButton);
         // нажимаем логотп сетелс бургер
         objPersonalAccount.clickButton(PersonalAccount.logoButton);
-
         //Убедиться что оттображается кнопка "Оформить заказ"
         Assert.assertTrue(objQaScooterPageElement.orderButtonIsExist(objQaScooterPageElement.orderButton));
     }
@@ -71,7 +69,6 @@ public class CheckAccountProfileTest {
         objAccauntProfile.clickButton(AccauntProfile.EntrenButton);
         // вызываем метод нажать на личный кабинет
         objPersonalAccount.clickButton(HomePageElement.personalAccountButton);
-
         //Убедиться что оттображается поле "В этом разделе вы можете изменить свои персональные данные"
         Assert.assertTrue(objPersonalAccount.orderButtonIsExist(objPersonalAccount.personalData));
     }
@@ -91,7 +88,6 @@ public class CheckAccountProfileTest {
         objQaScooterPageElement.clickButton(HomePageElement.personalAccountButton);
         // нажимаем кнопку выход
         objPersonalAccount.clickButton(PersonalAccount.exitButton);
-
         //Убедиться что оттображается кнопка "Зарегистрироваться"
         Assert.assertTrue(objAccauntProfile.orderButtonIsExist(AccauntProfile.registerButton));
     }

@@ -41,7 +41,6 @@ public class CheckConstructionTest {
 
         };
     }
-
     @Before
     public void runDrever() {
         //Драйвер Chrome без UI.
