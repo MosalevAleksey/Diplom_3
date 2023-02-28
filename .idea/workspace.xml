@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499215a7-b59b-43d7-813a-9a437ec54349" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckAccountProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckAccountProfileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckConstructionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckConstructionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEnterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckEnterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckRegistreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckRegistreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObgekt/AccauntProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObgekt/AccauntProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObgekt/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObgekt/ForgotPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObgekt/HomePageElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObgekt/HomePageElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObgekt/PersonalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObgekt/PersonalAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObgekt/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObgekt/Register.java" afterDir="false" />
-    </list>
+    <list default="true" id="499215a7-b59b-43d7-813a-9a437ec54349" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
